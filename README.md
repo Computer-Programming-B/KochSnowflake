@@ -1,6 +1,6 @@
 ![](kochflake.gif)   
 Koch Snowflake
---------------
+===============
 In this assignment, you will  make a snowflake. But not just any snowflake, you will make a *Koch* snowflake using a process called recursion. The Koch snowflake is a *fractal* because it consists of three copies of the *Koch curve*, arranged along the sides of a triangle:
 
 
@@ -51,8 +51,9 @@ The Koch curve can be generalized in several ways. See http://en.wikipedia.org/w
 
 
 Suggested steps to get started:
+---------------------------------
 1. TBD
 
 Samples of Student work
-=======================
+-----------------------
 *none yet!*
