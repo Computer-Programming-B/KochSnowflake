@@ -45,6 +45,7 @@ When you get one side of the snowflake working, combine three of them to make th
 
 Extension
 ---------
+![](KochCurve.png)   
 These pictures are closely related to the Koch curve. See if you can generate pictures like these by changing the turning angles. The Koch curve can be generalized in several ways. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
 
 
