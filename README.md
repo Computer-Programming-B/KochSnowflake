@@ -43,10 +43,10 @@ The exception is if x is less than 3: in that case, you can just draw a straight
 
 When you get one side of the snowflake working, combine three of them to make the entire snowflake. Why does the size in each recursive call have to be one third the size of the previous level? There are four copies; why not one fourth the size? 
 
-Extension: The Koch Curve
+Extension:
 ---------
 ![](KochCurve.PNG)   
-The pictures above are closely related to the Koch curve. See if you can generate pictures like these by changing the turning angles. The Koch curve can be generalized in several ways. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
+You can generate your own version of the Koch Snow Flake by changing the turning angles. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
 
 
 
