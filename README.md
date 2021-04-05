@@ -44,7 +44,7 @@ When you get one side of the snowflake working, combine three of them to make th
 Extension:
 ---------
 ![](KochCurve.PNG)   
-You can generate your own version of the Koch Snow Flake by changing the turning angles. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
+If you have extra time, you can generate your own version of the Koch Snow Flake by changing the turning angles. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
 
 
 
