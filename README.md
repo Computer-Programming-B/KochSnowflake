@@ -58,7 +58,7 @@ def snowflake(sideLength, order):
       # turn tommy to the right by 120 degrees
 ```
 5. Add code to call the `snowflake` function. You should now see a fully formed snowflake!
-6. 
+
 Extension:
 ---------
 If you have extra time, experimented with color and fill. You can make multiple snowflakes of random colors, orders and side lengths. You can also make snowflakes with more than 3 sides by reducing the angle that tommy turns in the `snowflake` function and increasing the number of times the loop runs.   
