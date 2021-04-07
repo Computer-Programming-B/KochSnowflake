@@ -11,7 +11,19 @@ Each new level replaces the straight lines of the previous level with bent lines
 ![](KochSnowFlake5.PNG)   
 
 
-Here's some starter code to draw one side of the Koch snowflake:
+
+
+Extension:
+---------
+![](KochCurve.PNG)   
+If you have extra time, you can generate your own version of the Koch Snow Flake by changing the turning angles. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
+
+
+
+
+Suggested steps to get started:
+---------------------------------
+1. Here's some starter code to draw one side of the Koch snowflake:
 ```Python
 import turtle
 tommy = turtle.Turtle()
@@ -29,7 +41,9 @@ tommy.pensize(3)
 koch(100, 1) #length of side is 100, order of 1 means one outer bend
 ```
 
-The problem with the starter code is that it won't put another outer bend inside of another. To do that, we'll need to make the function *recursive*. You will want to replace the italicized code with a recursive call to `koch` with a side length of `sideLength/3` and an order one less than `order`. By substracting one, our function will progress towards the *base case* of a straight line.
+2. Run and test the code. You should see the following output   
+![](KochSnowFlake6.PNG)   
+3. The problem with the starter code is that it won't put another outer bend inside of another. To do that, we'll need to make the function *recursive*. You will want to replace the commented line of code with a recursive call to `koch` with a side length of `sideLength/3` and an order one less than `order`. By substracting one, our function will progress towards the *base case* of a straight line.
  
  ```Python
 import turtle
@@ -37,7 +51,7 @@ tommy = turtle.Turtle()
 def koch(sideLength, order):
     if order > 0:
         for angle in [60, -120, 60, 0]:
-            *tommy.forward(sideLength/3)* #replace this with a recursive call to koch
+            tommy.forward(sideLength/3) #replace this with a recursive call to koch
             tommy.left(angle)
     else:
         tommy.forward(sideLength)
@@ -47,19 +61,7 @@ tommy.pensize(3)
 koch(100, 2) #order of 2 means one outer bend inside of each outer bend
 ```
 
-When you get one side of the snowflake working, combine three of them to make the entire snowflake. Why does the size in each recursive call have to be one third the size of the previous level? There are four copies; why not one fourth the size? 
-
-Extension:
----------
-![](KochCurve.PNG)   
-If you have extra time, you can generate your own version of the Koch Snow Flake by changing the turning angles. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
-
-
-
-
-Suggested steps to get started:
----------------------------------
-1. TBD
+4. When you get one side of the snowflake working, combine three of them to make the entire snowflake. Why does the size in each recursive call have to be one third the size of the previous level? There are four copies; why not one fourth the size? 
 
 Samples of Student work
 -----------------------
