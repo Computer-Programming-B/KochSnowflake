@@ -71,5 +71,5 @@ Samples of Student work
 *none yet!*
 
 <div align="center">
-<i>This assignment was based on Mr. Raymond Chan's Koch Snowflake assignment and <a href="https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html">Python with Science</a></i>
+<i>This assignment is based on Mr. Raymond Chan's Koch Snowflake assignment and <a href="https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html">Python with Science</a></i>
 </div>
