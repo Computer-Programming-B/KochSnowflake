@@ -57,11 +57,11 @@ def snowflake(sideLength, order):
       # call koch to make one side with the given sideLength and order
       # turn tommy to the right by 120 degrees
 ```
-5. Add code to call the `snowflake` function
+5. Add code to call the `snowflake` function. You should now see a fully formed snowflake!
 6. 
 Extension:
 ---------
-If you have extra time, experimented with color and fill. You can make multiple snowflakes of random colors, orders and side lengths. You can also make snowflakes with more than 3 sides by reducing the angle that tommy turns in the `snowflake` function.   
+If you have extra time, experimented with color and fill. You can make multiple snowflakes of random colors, orders and side lengths. You can also make snowflakes with more than 3 sides by reducing the angle that tommy turns in the `snowflake` function and increasing the number of times the loop runs.   
 
 You can generate your own version of the Koch Snow Flake by changing the turning angles in the `koch` function. See the examples below and check out http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
 ![](KochCurve.PNG)  
