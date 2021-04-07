@@ -64,7 +64,7 @@ Extension:
 ---------
 If you have extra time, experimented with color and fill. You can make multiple snowflakes of random colors, orders and side lengths. You can also make snowflakes with more than 3 sides by reducing the angle that tommy turns in the `snowflake` function and increasing the number of times the loop runs.   
 
-You can generate your own version of the Koch Snow Flake by changing the turning angles in the `koch` function. See the examples below and check out http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
+You can generate your own version of the Koch Snow Flake by changing the turning angles in the `koch` function to something other than `[60, -120, 60, 0]`. See the examples below and check out http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
 ![](KochCurve.PNG)  
 
 Samples of Student work
