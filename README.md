@@ -10,17 +10,6 @@ At the next level, the straight line is replaced by four lines, each one third t
 Each new level replaces the straight lines of the previous level with bent lines, exactly the same way. The red color was added here to make the previous level more visible. Your version can be all one color.   
 ![](KochSnowFlake5.PNG)   
 
-
-
-
-Extension:
----------
-![](KochCurve.PNG)   
-If you have extra time, you can generate your own version of the Koch Snow Flake by changing the turning angles. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
-
-
-
-
 Suggested steps to get started:
 ---------------------------------
 1. Here's some starter code to draw one side of the Koch snowflake:
@@ -62,6 +51,11 @@ koch(100, 2) #order of 2 means one outer bend inside of each outer bend
 ```
 
 4. When you get one side of the snowflake working, combine three of them to make the entire snowflake. Why does the size in each recursive call have to be one third the size of the previous level? There are four copies; why not one fourth the size? 
+
+Extension:
+---------
+![](KochCurve.PNG)   
+If you have extra time, you can generate your own version of the Koch Snow Flake by changing the turning angles. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
 
 Samples of Student work
 -----------------------
