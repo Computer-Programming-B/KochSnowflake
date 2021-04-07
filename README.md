@@ -5,7 +5,7 @@ In this assignment, you will  make a snowflake. But not just any snowflake, you 
 ![](KochSnowFlake2.PNG)   
 The base case is just the line:   
 ![](KochSnowFlake3.PNG)   
-At the next level, the straight line is replaced by four lines, each one third the length of the parent, arranged this way.   
+At the next level there is an "outer bend." The straight line is replaced by four lines, each one third the length of the parent, arranged this way.   
 ![](KochSnowFlake4.PNG)   
 Each new level replaces the straight lines of the previous level with bent lines, exactly the same way. The red color was added here to make the previous level more visible. Your version can be all one color.   
 ![](KochSnowFlake5.PNG)   
