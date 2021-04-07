@@ -33,7 +33,7 @@ koch(100, 1) #length of side is 100, level of 1 means one outer bend
 
 2. Run and test the code. You should see the following output   
 ![](KochSnowFlake6.PNG)   
-3. The problem with the starter code is that it won't work correctly with an `level` greater than one. That is, it won't put another outer bend inside of the first. To do that, we'll need to make the function *recursive*. You will want to replace the commented line of code with a recursive call to `koch` with a side length of `sideLength/3` and an level one less than `level`. By substracting one, our function will progress towards the *base case* of a straight line.
+3. The problem with the starter code is that it won't work correctly with a `level` greater than one. That is, it won't put another outer bend inside of the first. To do that, we'll need to make the function *recursive*. You will want to replace the commented line of code with a recursive call to `koch` with a side length of `sideLength/3` and an level one less than `level`. By substracting one, our function will progress towards the *base case* of a straight line.
  
  ```Python
 import turtle
@@ -62,7 +62,7 @@ def snowflake(sideLength, level):
 
 Extension:
 ---------
-If you have extra time, experimented with color and fill. You can make multiple snowflakes of random colors, levels and side lengths. You can also make snowflakes with 2,4,5 or other number of sides by dividing 360 by the number of sides to calculate the angle that tommy turns in the `snowflake` function and increasing the number of times the loop runs to match the number of sides.   
+If you have extra time, experiment with color and fill. You can make multiple snowflakes of random colors, levels and side lengths. You can also make snowflakes with 2,4,5 or any other number of sides by dividing 360 by the number of sides to calculate the angle that tommy turns in the `snowflake` function and increasing the number of times the loop runs to match the number of sides.   
 
 You can generate your own version of the Koch Snow Flake by changing the turning angles in the `koch` function to something other than `[60, -120, 60, 0]`. See the examples below and check out http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
 ![](KochCurve.PNG)  
