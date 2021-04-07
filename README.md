@@ -11,33 +11,41 @@ Each new level replaces the straight lines of the previous level with bent lines
 ![](KochSnowFlake5.PNG)   
 
 
-Complete this recursive procedure to draw one side of the Koch snowflake:
+Here's some starter code to draw one side of the Koch snowflake:
 ```Python
-  def koch(t, n): #t is Turtle Object, n is the length
-  #Draws a koch curve with length n
-  if n < 10:
-    t.fd(n)
-    return
+import turtle
+tommy = turtle.Turtle()
+def koch(sideLength, order):
+    if order > 0:
+        for angle in [60, -120, 60, 0]:
+            tommy.forward(sideLength/3)
+            tommy.left(angle)
+    else:
+        tommy.forward(sideLength)
 
-  #recursive and stepping code goes here.
-  ```
+# Test
+koch(100, 0) #length of side is 100, order of 0 means no outer bend
+tommy.pensize(3)
+koch(100, 1) #length of side is 100, order of 1 means one outer bend
+```
 
-
+The problem with the starter code is that it won't put another outer bend inside of another. To do that, we'll need to make the function *recursive*. You will want to replace the italicized code with a recursive call to `koch` with a side length of `sideLength/3` and an order one less than `order`. By substracting one, our function will progress towards the *base case* of a straight line.
  
- 
- 
-Hint:   
+ ```Python
+import turtle
+tommy = turtle.Turtle()
+def koch(sideLength, order):
+    if order > 0:
+        for angle in [60, -120, 60, 0]:
+            *tommy.forward(sideLength/3)* #replace this with a recursive call to koch
+            tommy.left(angle)
+    else:
+        tommy.forward(sideLength)
 
-Draw a Koch curve with length x/3.   
-Turn left 60 degrees.   
-Draw a Koch curve with length x/3.   
-Turn right 120 degrees.   
-Draw a Koch curve with length x/3.   
-Turn left 60 degrees.   
-Draw a Koch curve with length x/3.   
-The exception is if x is less than 3: in that case, you can just draw a straight line with length x.   
-
-
+# Test
+tommy.pensize(3)
+koch(100, 2) #order of 2 means one outer bend inside of each outer bend
+```
 
 When you get one side of the snowflake working, combine three of them to make the entire snowflake. Why does the size in each recursive call have to be one third the size of the previous level? There are four copies; why not one fourth the size? 
 
