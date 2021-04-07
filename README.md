@@ -50,12 +50,19 @@ tommy.pensize(3)
 koch(100, 2) #order of 2 means one outer bend inside of each outer bend
 ```
 
-4. When you get one side of the snowflake working, combine three of them to make the entire snowflake. Why does the size in each recursive call have to be one third the size of the previous level? There are four copies; why not one fourth the size? 
-
+4. When you get one side of the snowflake working, combine three of them to make the entire snowflake. To do this, define a new function `snowflake`:
+```Python
+def snowflake(sideLength, order):
+    # loop 3 times
+      # call koch to make one side with the given sideLength and order
+      # turn tommy to the right by 120 degrees
+```
+5. Add code to call the `snowflake` function
+6. 
 Extension:
 ---------
-![](KochCurve.PNG)   
-If you have extra time, you can generate your own version of the Koch Snow Flake by changing the turning angles. See http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
+If you have extra time, experimented with color and fill. You can make multiple snowflakes of random colors, orders and side lengths. You can generate your own version of the Koch Snow Flake by changing the turning angles. See the examples below and check out http://en.wikipedia.org/wiki/Koch_snowflake for examples and implement your favorite.
+![](KochCurve.PNG)  
 
 Samples of Student work
 -----------------------
