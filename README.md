@@ -32,7 +32,7 @@ koch(100, 1) #length of side is 100, order of 1 means one outer bend
 
 2. Run and test the code. You should see the following output   
 ![](KochSnowFlake6.PNG)   
-3. The problem with the starter code is that it won't put another outer bend inside of another. To do that, we'll need to make the function *recursive*. You will want to replace the commented line of code with a recursive call to `koch` with a side length of `sideLength/3` and an order one less than `order`. By substracting one, our function will progress towards the *base case* of a straight line.
+3. The problem with the starter code is that it won't work correctly with an `order` greater than one. That is, it won't put another outer bend inside of the first. To do that, we'll need to make the function *recursive*. You will want to replace the commented line of code with a recursive call to `koch` with a side length of `sideLength/3` and an order one less than `order`. By substracting one, our function will progress towards the *base case* of a straight line.
  
  ```Python
 import turtle
