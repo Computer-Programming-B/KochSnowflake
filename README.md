@@ -69,3 +69,7 @@ You can generate your own version of the Koch Snow Flake by changing the turning
 Samples of Student work
 -----------------------
 *none yet!*
+
+<div align="center">
+*This assignment was based on Mr. Raymond Chan's Koch Snowflake assignment and [Python with Science](https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html)
+</div>
