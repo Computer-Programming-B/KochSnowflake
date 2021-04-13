@@ -2,7 +2,7 @@
 Koch Snowflake
 ===============
 ![](kochflake.gif)   
-In this assignment, you will  make a snowflake. But not just any snowflake, you will make a *Koch* snowflake using a process called recursion. The Koch snowflake is a *fractal* because it consists of three copies of the *Koch curve*, arranged along the sides of a triangle. (You may find slides 235-255 of the [slide presentation](https://docs.google.com/presentation/d/1rICcmNbnGYsB-cV_6EatPyzcOS2sId80Jh2kayUzm4Q/edit#slide=id.ga2b2b98a27_0_165) helpful in completing this assignment)  
+In this assignment, you will  make a snowflake. But not just any snowflake, you will make a *Koch* snowflake using a process called recursion. The Koch snowflake is a *fractal* because it consists of three copies of the *Koch curve*, arranged along the sides of a triangle. (You may find slides 235-265 of the [slide presentation](https://docs.google.com/presentation/d/1rICcmNbnGYsB-cV_6EatPyzcOS2sId80Jh2kayUzm4Q/edit#slide=id.ga2b2b98a27_0_165) helpful in completing this assignment)  
 ![](KochSnowFlake2.PNG)   
 The base case is just the line:   
 ![](KochSnowFlake3.PNG)   
