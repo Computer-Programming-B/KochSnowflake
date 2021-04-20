@@ -71,6 +71,7 @@ Your snowflake doesn't have to look like any other, it doesn't even have to be a
 Samples of Student work
 -----------------------
 [Marissa](Marissa.PNG)   
+[Rachel](Rachel.PNG)   
 
 <div align="center">
 <i>This assignment is based on Mr. Raymond Chan's Koch Snowflake assignment and <a href="https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html">Python with Science</a></i>
