@@ -70,6 +70,7 @@ Your snowflake doesn't have to look like any other, it doesn't even have to be a
 
 Samples of Student work
 -----------------------
+[Gloria](GloriaKochSnowflake.PNG)   
 [Tommy](TommyKochSnowflakes.gif)   
 [Marissa](Marissa.PNG)   
 [Ken](KenKochSnowflake.gif)   
