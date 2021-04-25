@@ -72,6 +72,7 @@ Samples of Student work
 -----------------------
 [Gloria](GloriaKochSnowflake.PNG)   
 [Dat](DatSnowflake.PNG)   
+[Michelle](Michelle.gif)   
 [Tommy](TommyKochSnowflakes.gif)   
 [Marissa](Marissa.PNG)   
 [Ken](KenKochSnowflake.gif)   
